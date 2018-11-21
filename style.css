@@ -1,0 +1,365 @@
+* {
+    margin: 0 auto;
+    padding: 0 auto;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+  }
+body{
+    background-color: rgb(255, 255, 255);
+    width: 1600px;
+}
+
+/*     LOGO     */
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin: 32px 1194px 31px 253px;
+    width: 155px;
+}
+.logo_wrap {
+    display: flex;
+    height: 37px;
+    width: 34px;
+}
+
+.logo_wrap_start {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-bottom: 2px;   
+}
+
+.logo_wrap_end {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-around;
+    margin-top: 2px;  
+}
+
+.logo_block_blue {
+    width: 15px;
+    height: 15px;
+    background-color: rgb(21, 164, 250);
+}
+.logo_block_darkBlue {
+    width: 15px;
+    height: 15px;
+    background-color: rgb(45, 57, 80);
+
+}
+
+.logo_text {
+    color: rgb(45, 57, 80);
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+/*     HEADER     */
+.header {
+    height: 800px;
+    background-image: url(img/Image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header_wrap {
+    display: flex;
+    flex-direction: column;
+    padding-top: 217px;
+}
+
+.header_title{
+    color: rgb(255, 255, 255);
+    font-size: 120px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.header_block_after {
+    width: 600px;
+    height: 2px;
+    background-color: rgb(21, 164, 250);
+    margin-top: 13px;
+}
+
+.header_text {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 30px;
+
+}
+
+.header_buttom {
+    width: 176px;
+    height: 54px;
+    border-radius: 2px;
+    border: 1px solid rgb(21, 164, 250);
+    background-color: rgba(21, 162, 250, 0);
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 64px;
+}
+
+.header_anchor {
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    margin-top: 160px;
+}
+.header_anchor:hover {
+    color: rgb(153, 153, 153);
+}
+
+.body_design {
+    height: 340px;
+    text-align: center;
+    background-color: rgb(246, 249, 249);
+}
+
+.body_title {
+    color: rgb(45, 57, 80);
+    font-size: 40px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    padding-top: 71px;
+    
+}
+
+.body_design_text {
+    width: 1101px;
+    color: rgb(153, 153, 153);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-top: 32px;  
+}
+
+/* SECTION */
+
+.body_section {
+    display: flex;
+    height: 340px;
+    width: 1067px;
+    align-items: center;
+}
+
+.body_section_block {
+    width: 316px;
+    text-align: center;
+}
+
+.body_section_iconBox {
+    width: 100px;
+    height: 100px;
+    border-radius: 2px;
+    background-color: rgb(95, 195, 255);
+}
+
+.body_section_icon:hover {
+    background-color: rgb(72, 186, 255);
+}
+
+.body_section_title {
+    color: rgb(45, 57, 80);
+    font-size: 22px;
+    font-weight: 400;
+    margin-top: 32px;
+}
+
+.body_section_text {
+    color: rgb(153, 153, 153);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+    margin-top: 22px;
+}
+
+.body_section_icon {
+    font-size: 40px;
+    line-height: 100px;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 1px rgba(2, 2, 2, 0.4);
+    text-align: center;
+}
+
+/* PORTFOLIO */
+
+.body_content {
+    height: 900px;
+    background-color: rgb(246, 249, 249);
+}
+
+.body_content_title {
+    color: rgb(45, 57, 80);
+    font-size: 41px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 81px;
+}
+
+.body_content_text {
+    color: rgb(144, 144, 144);
+    margin-top: 22px;
+    font-size: 15px;
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+.body_content_wrap {
+    width: 1140px;
+    height: 550px;
+    display: fleX;
+    flex-wrap: wrap;
+}
+
+.content_img {
+    width: 360px;
+    height: 260px;
+    background-color: rgb(21, 164, 250);
+}
+
+.content_img img{
+    width: 360px;
+    height: 260px;
+}
+
+.content_img img:hover {
+    border-radius: 2px;
+    opacity: 0.2;   
+}
+
+/* FORM */
+
+.form {
+    height: 700px;
+    background-image: url(img/Rectangle_25_copy.png), url(img/footer.png); 
+    text-align: center;
+}
+
+
+.form_title {
+    color: rgb(255, 255, 255);
+    font-size: 41px;
+font-weight: 400;
+padding-top: 74px;
+}
+
+.form_text{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 23px;
+    color: rgb(153, 153, 153);
+    margin-top: 18px;
+    margin-bottom: 52px;
+}
+
+.form_wrap {
+    width: 555px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.block_border{
+    border: 0.8px solid rgb(153, 153, 153);
+    border-radius: 2px;
+    margin-bottom: 22px;
+    font-size: 15px;
+    font-weight: 400;
+    color: rgb(153, 153, 153);
+}
+
+.form_block_fullName {
+    height: 60px;
+    width: 553px;
+    background: transparent; 
+    font-size: 15px;
+    font-weight: 400;
+    color: rgb(153, 153, 153);
+}
+
+.form_block_email {
+    height: 60px;
+    width: 553px;
+    background: transparent; 
+    font-size: 15px;
+    font-weight: 400;
+    color: rgb(153, 153, 153);
+    align-items: flex-start;
+}
+
+.form_block_com {
+    height: 160px;
+    width: 553px;
+    background: transparent; 
+    font-size: 15px;
+    font-weight: 400;
+    color: rgb(153, 153, 153);
+}
+
+.form_block_sendWrap {
+    width: 553px; 
+}
+
+.form_block_sendWrap button {
+    float: right;
+    width: 140px;
+    height: 45px;
+    border-radius: 2px;
+    background: transparent; 
+    border: 1px solid rgb(21, 164, 250);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 47px;
+    color: rgb(255, 255, 255);
+}
+
+.form_block_sendWrap label{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 400;
+    margin-right: 232px;
+    margin-left: 5px;
+    padding-top: 49px;
+}
+
+/* FOOTER */
+
+.footer{
+    height: 90px;
+    background-color: rgb(246, 249, 249);
+    display: flex;
+}
+
+.footer_text {
+    font-size: 15px;
+    font-weight: 400;
+    color: rgb(153, 153, 153);
+    padding-top: 38px;
+    margin-left: 225px;
+}
+
+.footer_wrap {
+    width: 175px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-top: 25px;
+    margin-left: 797px;
+}
+
+.footer_logo {
+    width: 40px;
+    height: 40px;
+    border-radius: 2px;
+    background-color: rgb(21, 164, 250);
+    font-size: 15px;
+    font-weight: 400;   
+    line-height: 40px;
+    text-align: center;
+    color: rgb(255, 255, 255);;
+}
